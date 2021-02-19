@@ -1,9 +1,72 @@
-body {
-	background: black;
+body{
+    background-color: #171717;
+    font-family: 'Handlee', cursive;
 }
-.postcard {
-	background: white;
-	width: 400px;
-	height: 300px;
-	margin: auto;
+
+.principal{
+    background-color: white;
+    padding:15px;
+    width: 470px;
+    height: 320px;
+    position: absolute;
+    top: 25%;
+    left: 32%;
+    font-size: 18px;
+}
+
+.header{
+    overflow: hidden;
+}
+
+.header h1{
+    margin: 0;
+}
+
+h1{
+    font-size: 34px;
+}
+
+.header img{
+    max-width: 50px;
+    float: right;
+}
+
+.middle{
+    overflow: hidden;
+}
+
+.parrafo{
+    float: left;
+    width: 50%;
+}
+
+.info{
+    float: right;
+    width: 50%;
+}
+
+.info input{
+    display: block;
+}
+
+.middle input[type=text]{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Handlee', cursive;
+    width: 240px;
+    padding: 4px;
+}
+
+.footer input{
+    background: #BFC9CA ;
+    font-family: 'Handlee', cursive;
+    font-size: 17px;
+    border: none;
+}
+.footer{
+    padding: 10px;
+    text-align: center;
 }
